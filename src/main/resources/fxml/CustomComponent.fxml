@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<fx:root minHeight="0.0" minWidth="0.0" type="GridPane" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+	<columnConstraints>
+		<ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+		<ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+		<ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+		<ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+		<ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+		<ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+		<ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+	</columnConstraints>
+	<rowConstraints>
+		<RowConstraints maxHeight="-Infinity" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+		<RowConstraints maxHeight="-Infinity" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+		<RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+		<RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+		<RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+		<RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+		<RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+		<RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+	</rowConstraints>
+	<children>
+		<Label id="month" fx:id="monthLabel" minHeight="0.0" minWidth="0.0" styleClass="monthName" text="Enero" GridPane.columnSpan="7" GridPane.halignment="CENTER" GridPane.valignment="CENTER" />
+		<Label fx:id="monLabel" minHeight="0.0" minWidth="0.0" styleClass="weekDay" text="L" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+		<Label fx:id="tueLabel" layoutX="30.0" layoutY="48.0" minHeight="0.0" minWidth="0.0" styleClass="weekDay" text="M" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+		<Label fx:id="wedLabel" layoutX="30.0" layoutY="48.0" minHeight="0.0" minWidth="0.0" styleClass="weekDay" text="X" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+		<Label fx:id="thuLabel" layoutX="56.0" layoutY="48.0" minHeight="0.0" minWidth="0.0" styleClass="weekDay" text="J" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+		<Label fx:id="friLabel" minHeight="0.0" minWidth="0.0" styleClass="weekDay" text="V" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+		<Label fx:id="satLabel" minHeight="0.0" minWidth="0.0" styleClass="weekDay" text="S" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+		<Label fx:id="sunLabel" minHeight="0.0" minWidth="0.0" text="D" GridPane.columnIndex="6" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+         <styleClass>
+            <String fx:value="weekDay" />
+            <String fx:value="sunday" />
+         </styleClass></Label>
+		<Label fx:id="week1MonLabel" alignment="BASELINE_CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="0.0" minWidth="0.0" styleClass="day" text="-" GridPane.columnIndex="0" GridPane.rowIndex="2" />
+		<Label fx:id="week1TueLabel" alignment="BASELINE_CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="0.0" minWidth="0.0" styleClass="day" text="-" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+		<Label fx:id="week1WedLabel" alignment="BASELINE_CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="0.0" minWidth="0.0" styleClass="day" text="-" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+		<Label fx:id="week1ThuLabel" alignment="BASELINE_CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="0.0" minWidth="0.0" styleClass="day" text="-" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+		<Label fx:id="week1FriLabel" alignment="BASELINE_CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="0.0" minWidth="0.0" styleClass="day" text="-" GridPane.columnIndex="4" GridPane.rowIndex="2" />
+		<Label fx:id="week1SatLabel" alignment="BASELINE_CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="0.0" minWidth="0.0" styleClass="day" text="-" GridPane.columnIndex="5" GridPane.rowIndex="2" />
+		<Label fx:id="week1SunLabel" alignment="BASELINE_CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="0.0" minWidth="0.0" text="-" GridPane.columnIndex="6" GridPane.rowIndex="2">
+         <styleClass>
+            <String fx:value="day" />
+            <String fx:value="sunday" />
+         </styleClass></Label>
+		<Label fx:id="week2MonLabel" alignment="BASELINE_CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="0.0" minWidth="0.0" styleClass="day" stylesheets="@../css/calendario.css" text="-" GridPane.columnIndex="0" GridPane.rowIndex="3" />
+		<Label fx:id="week2TueLabel" alignment="BASELINE_CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="0.0" minWidth="0.0" styleClass="day" text="-" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+		<Label fx:id="week2WedLabel" alignment="BASELINE_CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="0.0" minWidth="0.0" styleClass="day" text="-" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+		<Label fx:id="week2ThuLabel" alignment="BASELINE_CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="0.0" minWidth="0.0" styleClass="day" text="-" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+		<Label fx:id="week2FriLabel" alignment="BASELINE_CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="0.0" minWidth="0.0" styleClass="day" text="-" GridPane.columnIndex="4" GridPane.rowIndex="3" />
+		<Label fx:id="week2SatLabel" alignment="BASELINE_CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="0.0" minWidth="0.0" styleClass="day" text="-" GridPane.columnIndex="5" GridPane.rowIndex="3" />
+		<Label fx:id="week2SunLabel" alignment="BASELINE_CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="0.0" minWidth="0.0" text="-" GridPane.columnIndex="6" GridPane.rowIndex="3">
+         <styleClass>
+            <String fx:value="day" />
+            <String fx:value="sunday" />
+         </styleClass></Label>
+		<Label fx:id="week3MonLabel" alignment="BASELINE_CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="0.0" minWidth="0.0" styleClass="day" text="-" GridPane.columnIndex="0" GridPane.rowIndex="4" />
+		<Label fx:id="week3TueLabel" alignment="BASELINE_CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="0.0" minWidth="0.0" styleClass="day" text="-" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+		<Label fx:id="week3WedLabel" alignment="BASELINE_CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="0.0" minWidth="0.0" styleClass="day" text="-" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+		<Label fx:id="week3ThuLabel" alignment="BASELINE_CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="0.0" minWidth="0.0" styleClass="day" text="-" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+		<Label fx:id="week3FriLabel" alignment="BASELINE_CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="0.0" minWidth="0.0" styleClass="day" text="-" GridPane.columnIndex="4" GridPane.rowIndex="4" />
+		<Label fx:id="week3SatLabel" alignment="BASELINE_CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="0.0" minWidth="0.0" styleClass="day" text="-" GridPane.columnIndex="5" GridPane.rowIndex="4" />
+		<Label fx:id="week3SunLabel" alignment="BASELINE_CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="0.0" minWidth="0.0" text="-" GridPane.columnIndex="6" GridPane.rowIndex="4">
+         <styleClass>
+            <String fx:value="day" />
+            <String fx:value="sunday" />
+         </styleClass></Label>
+		<Label fx:id="week4MonLabel" alignment="BASELINE_CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="0.0" minWidth="0.0" styleClass="day" text="-" GridPane.columnIndex="0" GridPane.rowIndex="5" />
+		<Label fx:id="week4TueLabel" alignment="BASELINE_CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="0.0" minWidth="0.0" styleClass="day" text="-" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+		<Label fx:id="week4WedLabel" alignment="BASELINE_CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="0.0" minWidth="0.0" styleClass="day" text="-" GridPane.columnIndex="2" GridPane.rowIndex="5" />
+		<Label fx:id="week4ThuLabel" alignment="BASELINE_CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="0.0" minWidth="0.0" styleClass="day" text="-" GridPane.columnIndex="3" GridPane.rowIndex="5" />
+		<Label fx:id="week4FriLabel" alignment="BASELINE_CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="0.0" minWidth="0.0" styleClass="day" text="-" GridPane.columnIndex="4" GridPane.rowIndex="5" />
+		<Label fx:id="week4SatLabel" alignment="BASELINE_CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="0.0" minWidth="0.0" styleClass="day" text="-" GridPane.columnIndex="5" GridPane.rowIndex="5" />
+		<Label fx:id="week4SunLabel" alignment="BASELINE_CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="0.0" minWidth="0.0" text="-" GridPane.columnIndex="6" GridPane.rowIndex="5">
+         <styleClass>
+            <String fx:value="day" />
+            <String fx:value="sunday" />
+         </styleClass></Label>
+		<Label fx:id="week5MonLabel" alignment="BASELINE_CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="0.0" minWidth="0.0" styleClass="day" text="-" GridPane.columnIndex="0" GridPane.rowIndex="6" />
+		<Label fx:id="week5TueLabel" alignment="BASELINE_CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="0.0" minWidth="0.0" styleClass="day" text="-" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+		<Label fx:id="week5WedLabel" alignment="BASELINE_CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="0.0" minWidth="0.0" styleClass="day" text="-" GridPane.columnIndex="2" GridPane.rowIndex="6" />
+		<Label fx:id="week5ThuLabel" alignment="BASELINE_CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="0.0" minWidth="0.0" styleClass="day" text="-" GridPane.columnIndex="3" GridPane.rowIndex="6" />
+		<Label fx:id="week5FriLabel" alignment="BASELINE_CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="0.0" minWidth="0.0" styleClass="day" text="-" GridPane.columnIndex="4" GridPane.rowIndex="6" />
+		<Label fx:id="week5SatLabel" alignment="BASELINE_CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="0.0" minWidth="0.0" styleClass="day" text="-" GridPane.columnIndex="5" GridPane.rowIndex="6" />
+		<Label fx:id="week5SunLabel" alignment="BASELINE_CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="0.0" minWidth="0.0" text="-" GridPane.columnIndex="6" GridPane.rowIndex="6">
+         <styleClass>
+            <String fx:value="day" />
+            <String fx:value="sunday" />
+         </styleClass></Label>
+		<Label fx:id="week6MonLabel" alignment="BASELINE_CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="0.0" minWidth="0.0" styleClass="day" text="-" GridPane.columnIndex="0" GridPane.rowIndex="7" />
+		<Label fx:id="week6TueLabel" alignment="BASELINE_CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="0.0" minWidth="0.0" styleClass="day" text="-" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+		<Label fx:id="week6WedLabel" alignment="BASELINE_CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="0.0" minWidth="0.0" styleClass="day" text="-" GridPane.columnIndex="2" GridPane.rowIndex="7" />
+		<Label fx:id="week6ThuLabel" alignment="BASELINE_CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="0.0" minWidth="0.0" styleClass="day" text="-" GridPane.columnIndex="3" GridPane.rowIndex="7" />
+		<Label fx:id="week6FriLabel" alignment="BASELINE_CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="0.0" minWidth="0.0" styleClass="day" text="-" GridPane.columnIndex="4" GridPane.rowIndex="7" />
+		<Label fx:id="week6SatLabel" alignment="BASELINE_CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="0.0" minWidth="0.0" styleClass="day" text="-" GridPane.columnIndex="5" GridPane.rowIndex="7" />
+		<Label fx:id="week6SunLabel" alignment="BASELINE_CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="0.0" minWidth="0.0" text="-" GridPane.columnIndex="6" GridPane.rowIndex="7">
+         <styleClass>
+            <String fx:value="day" />
+            <String fx:value="sunday" />
+         </styleClass></Label>
+	</children>
+	<fx:define>
+		<java.util.ArrayList fx:id="daysLabelList">
+			<fx:reference source="week1MonLabel" />
+			<fx:reference source="week1TueLabel" />
+			<fx:reference source="week1WedLabel" />
+			<fx:reference source="week1ThuLabel" />
+			<fx:reference source="week1FriLabel" />
+			<fx:reference source="week1SatLabel" />
+			<fx:reference source="week1SunLabel" />
+			<fx:reference source="week2MonLabel" />
+			<fx:reference source="week2TueLabel" />
+			<fx:reference source="week2WedLabel" />
+			<fx:reference source="week2ThuLabel" />
+			<fx:reference source="week2FriLabel" />
+			<fx:reference source="week2SatLabel" />
+			<fx:reference source="week2SunLabel" />
+			<fx:reference source="week3MonLabel" />
+			<fx:reference source="week3TueLabel" />
+			<fx:reference source="week3WedLabel" />
+			<fx:reference source="week3ThuLabel" />
+			<fx:reference source="week3FriLabel" />
+			<fx:reference source="week3SatLabel" />
+			<fx:reference source="week3SunLabel" />
+			<fx:reference source="week4MonLabel" />
+			<fx:reference source="week4TueLabel" />
+			<fx:reference source="week4WedLabel" />
+			<fx:reference source="week4ThuLabel" />
+			<fx:reference source="week4FriLabel" />
+			<fx:reference source="week4SatLabel" />
+			<fx:reference source="week4SunLabel" />
+			<fx:reference source="week5MonLabel" />
+			<fx:reference source="week5TueLabel" />
+			<fx:reference source="week5WedLabel" />
+			<fx:reference source="week5ThuLabel" />
+			<fx:reference source="week5FriLabel" />
+			<fx:reference source="week5SatLabel" />
+			<fx:reference source="week5SunLabel" />
+			<fx:reference source="week6MonLabel" />
+			<fx:reference source="week6TueLabel" />
+			<fx:reference source="week6WedLabel" />
+			<fx:reference source="week6ThuLabel" />
+			<fx:reference source="week6FriLabel" />
+			<fx:reference source="week6SatLabel" />
+			<fx:reference source="week6SunLabel" />
+		</java.util.ArrayList>
+	</fx:define>
+</fx:root>
